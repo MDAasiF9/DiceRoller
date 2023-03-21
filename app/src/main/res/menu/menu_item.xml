@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="always"
+        android:id="@+id/a"
+        android:icon="@drawable/menubar"
+        android:title="">
+    <menu>
+
+    <item
+        app:showAsAction="never"
+        android:id="@+id/copyrightName"
+        android:icon="@drawable/name"
+        android:title="Md. Aashif Ansari"
+        />
+
+    <item
+        app:showAsAction="never"
+        android:id="@+id/personalID"
+        android:icon="@drawable/personalid"
+        android:title="77261068"
+        />
+
+    <item
+        app:showAsAction="never"
+        android:id="@+id/labExercise"
+        android:icon="@drawable/assignment"
+        android:title="Lab Assignment 1"
+        />
+    </menu>
+    </item>
+</menu>
